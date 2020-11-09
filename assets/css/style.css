@@ -1,0 +1,204 @@
+h1{
+    color:blue;
+}
+body{
+    position: absolute;
+    top:-50px;
+    padding:0;
+    margin:0;
+    margin-top:0;
+    background-color:white;
+    width:100%;
+    overflow-x:hidden;
+    font-family:arial;
+    font-size:14px;
+
+}
+div#titre{
+    top:0;
+    height:200px;
+    background-image:url("../images/image1.jpg");
+    background-attachment: fixed;
+    
+}
+#img1{
+    position:absolute;
+    top:50px;
+    left:30vw;
+    
+}
+#formulaire{
+    position:absolute;
+    border:1px solid blue;
+    width:700px;
+    height:200px;
+    left:30vw;
+}
+#titre p{
+    font-size:10px;
+    position:absolute;
+    top:180px;
+    left :30vw;
+}
+div#formulaire .text{
+    font-size:14px;
+    position: absolute;
+    top:10px;
+}
+#textearea{
+    background-color: white;
+    position: absolute;
+    top:70px;
+    left:70px;
+}
+#search{
+    position: absolute;
+    top:70px;
+    left:500px;
+    background-color: lightblue;
+}
+div.label{
+    position:absolute;
+    top:50px;
+    left:70px;
+}
+div#textForm p{
+    font-size:11px;
+    position:absolute;
+    top:80px;
+    left:70px;
+}
+#label1,input#departement{
+    position: absolute;
+    top:110px;
+    left:170px;
+}
+#label1{
+    position: absolute;
+    margin-left:20px;
+}
+#insee ,input#radio2{
+    position:absolute;
+    top:110px;
+    margin-left:180px;
+    left:220px;
+}
+input#radio2{
+    position:absolute;
+    left:200px;
+}
+hr{
+    position: absolute;
+    top:130px;
+    width:100%;
+    
+}
+#dropdown{
+    position:absolute;
+    top:180px;
+    left:70px;
+}
+#trier{
+    position: absolute;
+    top:180px;
+    left:0;
+}
+.check,#checkbox{
+    
+    top:140px;
+    left:450px;
+}
+.check{
+    position: relative;
+    font-size:14px;
+}
+#checkbox{
+    position:absolute;
+    margin-left:230px;
+}
+label#limit,input.limiter{
+    top:175px;
+    margin-left:90px;
+}
+#limit{
+    position:absolute;
+    left:270px;
+}
+input.limiter{
+    position: relative;
+    left:300px;
+    
+}
+
+#liens{
+    
+    
+    flex-wrap:nowrap;
+    position:relative;
+    left:0vw;
+    top:230px;
+    
+}
+
+#titre1,#titre2,#titre3{
+    position:relative;
+    margin-right:50px;
+    left:30vw;
+    font-size:14px;
+    font-weight: bold;
+    font-family:arial;
+}
+
+div.errors{
+    color:red;
+    position:absolute;
+    top:120px;
+    left:150px;
+    font-weight: bold;
+}
+div#images{
+    position: absolute;
+    top:500px;
+    left:35vw;
+}
+.cousins{
+    position: relative;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.genea{
+    position:relative;
+    margin-right: 5px;
+}
+.memorial{
+    position: relative;
+    margin-right:5px;
+}
+.mort{
+    position: relative;
+    margin-left:5px;
+}
+#refer{
+    position: absolute;
+    left:0vw;
+    margin-top:50px;
+}
+.reference ,#refer{
+    position: absolute;
+    font-size:10px;
+    left:-10vw;
+}
+input#courrier,input#inscrire,#labelEmail{
+    position:relative;
+    left:30vw;
+    margin-top:20px;
+}
+#labelEmail{
+    font-size:10px;
+    position: absolute;
+    bottom:20px;
+    width:200px;
+}
+input#inscrire{
+    background-color: lightblue;
+}
